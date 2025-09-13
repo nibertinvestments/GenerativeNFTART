@@ -1,0 +1,90 @@
+{
+  "ocean": {
+    "name": "Ocean",
+    "description": "Deep ocean blues and aquatic tones",
+    "colors": [
+      { "r": 0, "g": 105, "b": 148, "name": "Deep Ocean" },
+      { "r": 0, "g": 119, "b": 190, "name": "Ocean Blue" },
+      { "r": 0, "g": 150, "b": 199, "name": "Sky Blue" },
+      { "r": 0, "g": 180, "b": 216, "name": "Light Blue" },
+      { "r": 144, "g": 224, "b": 239, "name": "Powder Blue" }
+    ]
+  },
+  "sunset": {
+    "name": "Sunset",
+    "description": "Warm sunset colors",
+    "colors": [
+      { "r": 255, "g": 94, "b": 77, "name": "Sunset Red" },
+      { "r": 255, "g": 154, "b": 0, "name": "Sunset Orange" },
+      { "r": 255, "g": 206, "b": 84, "name": "Sunset Yellow" },
+      { "r": 255, "g": 138, "b": 101, "name": "Peach" },
+      { "r": 161, "g": 90, "b": 149, "name": "Purple" }
+    ]
+  },
+  "forest": {
+    "name": "Forest",
+    "description": "Natural forest greens",
+    "colors": [
+      { "r": 34, "g": 139, "b": 34, "name": "Forest Green" },
+      { "r": 0, "g": 100, "b": 0, "name": "Dark Green" },
+      { "r": 107, "g": 142, "b": 35, "name": "Olive Drab" },
+      { "r": 173, "g": 255, "b": 47, "name": "Green Yellow" },
+      { "r": 50, "g": 205, "b": 50, "name": "Lime Green" }
+    ]
+  },
+  "volcanic": {
+    "name": "Volcanic",
+    "description": "Fiery volcanic colors",
+    "colors": [
+      { "r": 139, "g": 0, "b": 0, "name": "Dark Red" },
+      { "r": 255, "g": 69, "b": 0, "name": "Red Orange" },
+      { "r": 255, "g": 140, "b": 0, "name": "Dark Orange" },
+      { "r": 255, "g": 215, "b": 0, "name": "Gold" },
+      { "r": 105, "g": 105, "b": 105, "name": "Dim Gray" }
+    ]
+  },
+  "arctic": {
+    "name": "Arctic",
+    "description": "Cool arctic tones",
+    "colors": [
+      { "r": 176, "g": 224, "b": 230, "name": "Powder Blue" },
+      { "r": 173, "g": 216, "b": 230, "name": "Light Blue" },
+      { "r": 135, "g": 206, "b": 235, "name": "Sky Blue" },
+      { "r": 70, "g": 130, "b": 180, "name": "Steel Blue" },
+      { "r": 25, "g": 25, "b": 112, "name": "Midnight Blue" }
+    ]
+  },
+  "neon": {
+    "name": "Neon",
+    "description": "Bright electric neon colors",
+    "colors": [
+      { "r": 255, "g": 0, "b": 255, "name": "Magenta" },
+      { "r": 0, "g": 255, "b": 255, "name": "Cyan" },
+      { "r": 255, "g": 255, "b": 0, "name": "Yellow" },
+      { "r": 255, "g": 0, "b": 127, "name": "Hot Pink" },
+      { "r": 127, "g": 255, "b": 0, "name": "Chartreuse" }
+    ]
+  },
+  "monochrome": {
+    "name": "Monochrome",
+    "description": "Black and white gradients",
+    "colors": [
+      { "r": 0, "g": 0, "b": 0, "name": "Black" },
+      { "r": 64, "g": 64, "b": 64, "name": "Dark Gray" },
+      { "r": 128, "g": 128, "b": 128, "name": "Gray" },
+      { "r": 192, "g": 192, "b": 192, "name": "Light Gray" },
+      { "r": 255, "g": 255, "b": 255, "name": "White" }
+    ]
+  },
+  "pastel": {
+    "name": "Pastel",
+    "description": "Soft pastel colors",
+    "colors": [
+      { "r": 255, "g": 182, "b": 193, "name": "Light Pink" },
+      { "r": 221, "g": 160, "b": 221, "name": "Plum" },
+      { "r": 173, "g": 216, "b": 230, "name": "Light Blue" },
+      { "r": 144, "g": 238, "b": 144, "name": "Light Green" },
+      { "r": 255, "g": 255, "b": 224, "name": "Light Yellow" }
+    ]
+  }
+}
