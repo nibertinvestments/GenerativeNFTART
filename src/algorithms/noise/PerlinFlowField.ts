@@ -4,9 +4,9 @@
  * Creates beautiful flowing patterns using Perlin noise to drive particle movement
  */
 
-import { Generator, GeneratorParameters, GenerationContext } from '../../core/Generator.js';
-import { Color, PaletteGenerator, PALETTES } from '../../core/Color.js';
-import { PerlinNoise, Vec2, MathUtils } from '../../utils/math.js';
+import { Generator, GeneratorParameters, GenerationContext } from '../../core/Generator';
+import { Color, PaletteGenerator, PALETTES } from '../../core/Color';
+import { PerlinNoise, Vec2, MathUtils } from '../../utils/math';
 
 interface Particle {
   position: Vec2;

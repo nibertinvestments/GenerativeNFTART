@@ -5,8 +5,8 @@
   "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "dev": "webpack serve --mode development",
-    "build": "webpack --mode production",
+    "dev": "webpack serve --mode development --config webpack.config.cjs",
+    "build": "webpack --mode production --config webpack.config.cjs",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
@@ -16,6 +16,7 @@
     "type-check": "tsc --noEmit",
     "generate": "node scripts/generate-art.js",
     "preview": "node scripts/preview-generator.js",
+    "demo": "node scripts/demo.js",
     "deploy": "node scripts/deploy.js",
     "docs": "typedoc src/",
     "clean": "rimraf dist output coverage docs"

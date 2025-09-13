@@ -178,8 +178,8 @@ describe('PerlinNoise', () => {
   test('should generate different values for different inputs', () => {
     const noise = new PerlinNoise(12345);
     
-    const value1 = noise.noise2D(1, 1);
-    const value2 = noise.noise2D(2, 2);
+    const value1 = noise.noise2D(1.5, 1.5);
+    const value2 = noise.noise2D(2.7, 2.7);
     
     expect(value1).not.toBe(value2);
   });

@@ -3,21 +3,21 @@
  */
 
 // Export core modules
-export * from './core/Generator.js';
-export * from './core/Color.js';
+export * from './core/Generator';
+export * from './core/Color';
 
 // Export utilities
-export * from './utils/math.js';
+export * from './utils/math';
 
 // Export algorithms
-export * from './algorithms/noise/PerlinFlowField.js';
+export * from './algorithms/noise/PerlinFlowField';
 
 // Re-export registry for convenience
-export { registry as GeneratorRegistry } from './core/Generator.js';
+export { registry as GeneratorRegistry } from './core/Generator';
 
 // Initialize and register default generators
-import { registry } from './core/Generator.js';
-import { PerlinFlowFieldGenerator } from './algorithms/noise/PerlinFlowField.js';
+import { registry } from './core/Generator';
+import { PerlinFlowFieldGenerator } from './algorithms/noise/PerlinFlowField';
 
 // Register default generators
 registry.register(new PerlinFlowFieldGenerator());
